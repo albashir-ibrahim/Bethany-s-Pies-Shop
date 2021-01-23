@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="autor" content="Engr. Bash" />
+    <meta name="description" content="Store Front for Bethany's Pie Shop" />
+    <title>Welcome to Bethany's Pie Shop</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+      body {
+        margin-top: 0px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e6e4d9;
+        background-image: url(images/pattern.png);
+      }
+      #mainheader {
+        background-color: #a593c2;
+      }
+      nav {
+        height: 60px;
+        width: 1000px;
+        margin: 0 auto 20px;
+      }
+      #leftmenu {
+        float: left;
+        width: 30%;
+        margin-bottom: 20px;
+      }
+      .searchbox {
+        padding: 10px;
+        margin: 10px 10px;
+        width: 200px;
+      }
+      #main {
+        float: right;
+        width: 70%;
+        margin-bottom: 20px;
+      }
+      footer {
+          clear: both;
+          width: 100%;
+      }
+      header,
+        section,
+        footer,
+        aside,
+        nav,
+        main,
+        article,
+        figure {
+            display: block;
+        }
+    </style>
+  </head>
+  <body>
+    <header id="mainheader">
+      <nav><img src="images/cake.svg" height="55px" alt="pie"></nav>
+    </header>
+    <div style="width: 1000px; margin-left: auto; margin-right: auto">
+      <aside id="leftmenu">
+        <header>
+          <img src="images/bethanylogo.png" alt="logo">
+          <h4 style="text-align: center">Browse Our Pies</h4>
+        </header>
+        <input type="search" class="searchbox" placeholder="search our store" />
+      </aside>
+      <main id="main">
+          
+      </main>
+      <footer>
+          <p>Our address is <address>Bethany's pie shop. street 555 Brussells Belgium</address></p>
+        <small>2020 Bethany's Pie Shop. All rights reserved</small>
+      </footer>
+    </div>
+  </body>
+</html>
